@@ -1,13 +1,14 @@
-export function FormHandle(){
-    function handleSubmit(e){
-        e.preventDefault();
-        alert('Form Submitted!');
-    }
+export function FormHandle() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert("Form Submitted!");
+  }
 
-
-    return(
-    <form onSubmit={handleSubmit}> <input type="text" />
-    <button>Submit</button>
-    
-    </form>)
+  return (
+    <form onSubmit={handleSubmit}>
+      {" "}
+      <input type="text" />
+      <button>Submit</button>
+    </form>
+  );
 }
