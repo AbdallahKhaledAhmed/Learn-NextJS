@@ -1,4 +1,5 @@
 import { Card } from "./components/Card"
+import { Conditional } from "./components/ConditionalRendering"
 import { FormHandle } from "./components/FormHandle"
 import { List } from "./components/Lists"
 
@@ -25,6 +26,7 @@ function App() {
      <User name="Jack" age="40" gender="Male"/>
      <FormHandle />
      <List />
+     <Conditional />
     </>
   )
 }
