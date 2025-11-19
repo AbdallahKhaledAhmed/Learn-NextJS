@@ -1,4 +1,5 @@
 import { Card } from "./components/Card"
+import { FormHandle } from "./components/FormHandle"
 
 function User ({name,age,gender}) {
 return (
@@ -21,6 +22,7 @@ function App() {
     </Card>
      <User name="Jane" age="25" gender="Female"/>
      <User name="Jack" age="40" gender="Male"/>
+     <FormHandle />
     </>
   )
 }
