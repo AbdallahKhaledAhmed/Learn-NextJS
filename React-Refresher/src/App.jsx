@@ -1,5 +1,6 @@
 import { Card } from "./components/Card"
 import { FormHandle } from "./components/FormHandle"
+import { List } from "./components/Lists"
 
 function User ({name,age,gender}) {
 return (
@@ -23,6 +24,7 @@ function App() {
      <User name="Jane" age="25" gender="Female"/>
      <User name="Jack" age="40" gender="Male"/>
      <FormHandle />
+     <List />
     </>
   )
 }
