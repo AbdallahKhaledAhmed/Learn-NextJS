@@ -1,20 +1,5 @@
-"use client";
-
-import { useRouter } from "next/navigation";
-
 const Home = () => {
-  const router = useRouter();
-  return (
-    <div className="flex flex-col">
-      Welcome! this is page 1
-      <button
-        className="bg-yellow-400 rounded text-white p-3 w-fit"
-        onClick={() => router.push("page2")}
-      >
-        Go to Page 2
-      </button>
-    </div>
-  );
+  return <>Home</>;
 };
 
 export default Home;
