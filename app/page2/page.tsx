@@ -1,20 +1,19 @@
 "use client";
-
 import { useRouter } from "next/navigation";
 
-const Home = () => {
+const page2 = () => {
   const router = useRouter();
   return (
     <div className="flex flex-col">
-      Welcome! this is page 1
+      <p>Welcome to the page2!</p>
       <button
         className="bg-yellow-400 rounded text-white p-3 w-fit"
-        onClick={() => router.push("page2")}
+        onClick={() => router.back()}
       >
-        Go to Page 2
+        Go Back to page 1
       </button>
     </div>
   );
 };
 
-export default Home;
+export default page2;
