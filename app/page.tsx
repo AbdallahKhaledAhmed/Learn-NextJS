@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="flex flex-col">
       <p>Home</p>
-      <Link href={"/timeout"}>Go to another page</Link>
+      <Link href={"/error"}>Go to another page</Link>
     </div>
   );
 };
