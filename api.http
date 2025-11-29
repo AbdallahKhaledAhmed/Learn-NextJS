@@ -2,3 +2,12 @@
 @contentType = application/json
 
 GET {{baseUrl}}/movies
+###
+POST {{baseUrl}}/movies
+
+{
+    "id": 10,
+    "name": "a",
+    "ratings": 0,
+    "genre": "Action"
+}
