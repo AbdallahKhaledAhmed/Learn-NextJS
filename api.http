@@ -23,3 +23,6 @@ PATCH {{baseUrl}}/movies/1
 }
 ###
 DELETE {{baseUrl}}/movies/1
+
+###
+GET {{baseUrl}}/movies?query=john
