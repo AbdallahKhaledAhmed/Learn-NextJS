@@ -13,4 +13,13 @@ POST {{baseUrl}}/movies
 }
 
 ###
-GET {{baseUrl}}/movies/100
+GET {{baseUrl}}/movies/1
+###
+PATCH {{baseUrl}}/movies/1
+
+{
+    "ratings": 5
+
+}
+###
+DELETE {{baseUrl}}/movies/1

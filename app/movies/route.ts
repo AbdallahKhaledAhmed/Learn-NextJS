@@ -7,5 +7,5 @@ export async function GET() {
 export async function POST(req: Request) {
   const movie = await req.json();
   movies.push(movie);
-  return Response.json(movies);
+  return Response.json(movie, { status: 201 });
 }
