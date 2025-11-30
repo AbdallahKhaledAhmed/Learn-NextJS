@@ -11,3 +11,6 @@ POST {{baseUrl}}/movies
     "ratings": 0,
     "genre": "Action"
 }
+
+###
+GET {{baseUrl}}/movies/100
