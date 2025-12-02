@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "My Website",
-  description: "this is an amazing website, Trust me bro.",
+  description: "This is an amazing website, Trust me bro.",
 };
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
