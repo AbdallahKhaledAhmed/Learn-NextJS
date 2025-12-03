@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className="bg-linear-to-br from-blue-50 to-indigo-100 center flex-col gap-6 h-screen text-center">
+    <div className="h-screen center flex-col gap-6 text-center">
       <h1 className="text-5xl font-bold text-gray-800">
         Welcome to the Dashboard App
       </h1>

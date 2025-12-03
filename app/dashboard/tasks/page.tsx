@@ -25,11 +25,13 @@ const tasks: TaskType[] = [
 const Tasks = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-gray-800">Tasks</h1>
-      <div>
-        {tasks.map((ele, ind) => (
-          <Task {...ele} key={ind} />
-        ))}
+      <div className="max-w-7xl mx-auto mt-10 p-5">
+        <h1 className="text-3xl font-bold text-gray-800 mb-10">Tasks</h1>
+        <div className="space-y-5">
+          {tasks.map((ele, ind) => (
+            <Task {...ele} key={ind} />
+          ))}
+        </div>
       </div>
     </div>
   );

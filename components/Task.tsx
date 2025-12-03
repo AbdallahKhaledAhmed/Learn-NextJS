@@ -24,9 +24,13 @@ const Task = (props: TaskType) => {
   }
 
   return (
-    <div className={`rounded-lg border-l-2 flex items-center ${borderClass}`}>
-      <div>
-        <strong>{props.title}</strong>
+    <div
+      className={`rounded-lg border-l-4 bg-white p-6 flex items-center justify-between shadow-md ${borderClass}`}
+    >
+      <div className="text-sm text-gray-600 space-y-2">
+        <strong className="text-xl font-bold text-gray-800">
+          {props.title}
+        </strong>
         <p>{props.description}</p>
         <p>Due Date: {props.date}</p>
       </div>

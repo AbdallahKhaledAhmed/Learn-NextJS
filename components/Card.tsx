@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export type props = {
+export type CardProps = {
   title: string;
   symbol: string;
   description: string;
@@ -8,10 +8,10 @@ export type props = {
   href: string;
 };
 
-const Card = ({ title, symbol, description, bgClass, href }: props) => {
+const Card = ({ title, symbol, description, bgClass, href }: CardProps) => {
   return (
     <Link
-      className={`inline-flex flex-col gap-3 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-200 ease-in-out transform hover:scale-105 ${bgClass}`}
+      className={`space-y-3 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-200 ease-in-out transform hover:scale-105 ${bgClass}`}
       href={href}
     >
       <div className="flex justify-between items-center text-xl ">
