@@ -4,18 +4,4 @@
   button {
     @apply cursor-pointer hover:opacity-85;
   }
-  label {
-    @apply space-y-2
-  }
-  label > p {
-    @apply text-sm font-medium text-gray-600 m-2;
-  }
-  input {
-    @apply mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
-  }
-}
-@layer utilities {
-  .center {
-    @apply flex justify-center items-center;
-  }
 }
