@@ -9,8 +9,12 @@ export const metadata = {
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
-      <body>
-        <main>{children}</main>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <div className="bg-linear-to-br from-blue-50 to-indigo-100 min-h-screen">
+          {children}
+        </div>
       </body>
     </html>
   );
