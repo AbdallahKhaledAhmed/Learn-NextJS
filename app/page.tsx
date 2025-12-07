@@ -1,14 +1,8 @@
-import Link from "next/link";
-
 const Home = () => {
   return (
-    <div className="center min-h-screen">
-      <Link
-        href="./games"
-        className="px-3 py-2 text white rounded bg-blue-500 text-white font-bold hover:opacity-75"
-      >
-        Go To Games
-      </Link>
+    <div>
+      <p>Welcome to the Homepage</p>
+      <p>This is the main public page of the website.</p>
     </div>
   );
 };
