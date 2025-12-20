@@ -18,8 +18,15 @@ export default function Player() {
         <IoPlaySkipForwardOutline />
       </button>
       <span className="text-sm text-gray-400">2:21</span>
-      <div className="w-50 h-2  bg-amber-50">
-        <div className="w-1 bg-gray-800 h-full ml-[65%]"></div>
+      <div className="w-64 relative h-1 bg-gray-700 rounded-md">
+        <div
+          className="absolute top-0 left-0 h-1 bg-white rounded-md"
+          style={{ width: "50%" }}
+        />
+        <input
+          type="range"
+          className="absolute top-0 left-0 w-full h-1 bg-transparent cursor-pointer"
+        />
       </div>
       <span className="text-sm text-gray-400">3:11</span>
     </div>
