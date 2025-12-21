@@ -1,4 +1,5 @@
 import { products } from "../page";
+import Return from "./return";
 
 interface InterceptProductProps {
   params: { id: string };
@@ -10,7 +11,8 @@ export default async function InterceptProduct(props: InterceptProductProps) {
 
   return (
     <div className="bg-black min-h-screen center">
-      <div className="mx-auto p-10  flex-col bg-white gap-5 text-3xl center rounded-lg border border-gray-300">
+      <div className="mx-auto p-10 relative flex-col bg-white gap-5 text-3xl center rounded-lg border border-gray-300">
+        <Return />
         <h2>{product?.name}</h2>
         <img src={product?.image} alt={product?.name} className="w-160" />
         <p>Price: {product?.price}</p>
