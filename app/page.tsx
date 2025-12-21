@@ -2,9 +2,13 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div>
-      <p>Home</p>
-      <Link href="/ecommerce">go to Ecommerce</Link>
+    <div className="min-h-screen center flex-col gap-5">
+      <p className="text-2xl">Welcome this is the home page</p>
+      <button>
+        <Link href="/ecommerce" className="bg-blue-500 text-white p-2 rounded">
+          go to Ecommerce
+        </Link>
+      </button>
     </div>
   );
 };

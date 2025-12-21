@@ -5,3 +5,9 @@
     @apply flex items-center justify-center;
   }
 }
+
+@layer base {
+  button {
+    @apply hover:opacity-80 cursor-pointer;
+  }
+}
