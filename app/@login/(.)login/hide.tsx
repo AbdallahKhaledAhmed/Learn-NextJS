@@ -2,14 +2,14 @@
 
 import { useRouter } from "next/navigation";
 
-export default function Return() {
+export default function Hide() {
   const router = useRouter();
   return (
     <button
       onClick={() => {
         router.back();
       }}
-      className="absolute top-5 right-5 center p-2 rounded-full bg-neutral-300 size-6 text-base font-semibold"
+      className="absolute top-5 right-5 center rounded-full size-6 p-2 bg-neutral-300"
     >
       X
     </button>
