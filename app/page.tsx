@@ -5,8 +5,8 @@ const Home = () => {
     <div className="min-h-screen center flex-col gap-5">
       <p className="text-2xl">Welcome this is the home page</p>
       <button>
-        <Link href="/games" className="bg-blue-500 text-white p-2 rounded">
-          go to Games
+        <Link href="/ecommerce" className="bg-blue-500 text-white p-2 rounded">
+          go to Ecommerce
         </Link>
       </button>
     </div>
