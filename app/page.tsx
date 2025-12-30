@@ -2,14 +2,22 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen center flex-col gap-5">
-      <h1>this is the home page</h1>
-      <Link
-        href="/form"
-        className="inline-flex items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80"
-      >
-        Go to Form
-      </Link>
+    <div className="min-h-screen center flex-col gap-10">
+      <h1 className="text-6xl font-bold text-gray-700">🎬 Movies App</h1>
+      <div className="space-x-3">
+        <Link
+          href="/add-movie"
+          className="p-3 text-white rounded-lg hover:opacity-75 bg-blue-600"
+        >
+          Add Movie
+        </Link>
+        <Link
+          href="/movies"
+          className="p-3 text-white rounded-lg hover:opacity-75 bg-gray-600"
+        >
+          View all Movies
+        </Link>
+      </div>
     </div>
   );
 }
