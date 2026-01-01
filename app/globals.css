@@ -10,4 +10,8 @@
   button {
     @apply cursor-pointer hover:opacity-85;
   }
+  laber {@apply w-full}
+  input {
+    @apply focus:ring py-2 w-full ring-gray-300 px-3 rounded-md;
+  }
 }
